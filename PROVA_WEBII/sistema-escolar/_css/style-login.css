@@ -1,0 +1,92 @@
+body {    
+    background: url(../_img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.topo {
+    background-color: #417BDB;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo * {
+    color: white;
+}
+
+.topo .titulo {
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.topo .desenvolvedores {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-right: 50px;
+    padding-left: 30%;
+}
+
+.topo .desenvolvedores ul {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.topo .desenvolvedores p {
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 1px;
+}
+
+.desenvolvedores li {
+    list-style-type: none;
+}
+
+.desenvolvedores a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.desenvolvedores a:hover {
+    color: #dba141;
+}
+
+.login {
+    background-color: #F5F9FF;
+    position: absolute;
+    width: 380px;
+    height: 275px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-check {
+    padding-bottom: 20px;
+}
+
+.btn {
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+.login input[type = "text"], input[type = "password"] {
+    padding: 10px;
+    width: 250px;
+}

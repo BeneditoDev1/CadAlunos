@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../_img/home-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background: #417BDB;
+}
+
+.sidebar .text {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: #417BDB;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  background: #417BDB;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  line-height: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav ul li:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+nav ul li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+
+nav ul li.active a {
+  color: #dba141;
+  background: #417BDB;
+  border-left-color: #dba141;
+}
+
+nav ul li a:hover {
+  background: #417BDB;
+}
+
+nav ul ul {
+  position: static;
+  display: none;
+}
+
+nav ul .feat-show.show {
+  display: block;
+}
+
+nav ul .serv-show.show1 {
+  display: block;
+}
+
+nav ul .disc-show.show2 {
+  display: block;
+}
+
+nav ul ul li {
+  line-height: 42px;
+  border-top: none;
+}
+
+nav ul ul li a {
+  font-size: 17px;
+  color: #e6e6e6;
+  padding-left: 50px;
+}
+
+nav ul li.active ul li a {
+  color: #e6e6e6;
+  background: #417BDB;
+  border-left-color: transparent;
+}
+
+nav ul ul li a:hover {
+  color: #dba141 !important;
+  background: #417BDB !important;
+}
+
+nav ul li a span {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s;
+}
+
+nav ul li a span.rotate {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+a:hover {
+  color: #dba141;
+}
+
+.content {
+  background-color: #F5F9FF;
+  position: absolute;
+  width: 70vw;
+  height: 90vh;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 50px;
+  overflow: auto;
+
+  box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.199);
+}
+
+h1 {
+  text-align: center;
+}
+
+/*
+input {
+  margin-left: 20px;
+}
+*/
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 200px;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .content {
+    width: 60vw;
+    left: 60%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .content {
+    left: 60%;
+  }
+}
+
+.form {
+  width: 50%;
+}
+
+td>img {
+  width: 40px;
+  height: 40px;
+}
+
+.content img {
+  width: 40px;
+  height: 40px;
+}
+
+.img {
+  text-align: center;
+}
+
+.img img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+td .btn {
+  display: block;
+  margin: auto;
+}
+
+td .btn {
+  width: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+/* to override the existing css for "a" tag */
+.sidebar .active a { color: #dba141; }
