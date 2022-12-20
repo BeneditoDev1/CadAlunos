@@ -11,8 +11,6 @@
 <p>Professor: Marcio Osshiro
 
 <h2>Oque foi feito:
-<p>O trabalho tem o Objetivo de desenvolver uma aplicação Web usando a ferramenta Xampp e as linguagens HTML, CSS e JavaScript e Frameworks Bootstrap e Jquery para o Front-End
-e PHP com o Banco de dados MYSQL para o BackEnd.
-<br>
+<p>O trabalho tem o Objetivo de desenvolver uma aplicação Web usando a ferramenta Xampp e as linguagens HTML, CSS e JavaScript com as Frameworks Bootstrap e Jquery para o Front-End e PHP com o Banco de dados MYSQL para o BackEnd. <br>
 
 <img align="center" alt="Imagem-soft" height="1000" width="1000" src="https://user-images.githubusercontent.com/91962241/208559114-03013d79-97eb-45e8-9363-9e1d1e620538.png" />
